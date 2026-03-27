@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
   try {
-    const path = req.url.replace("/api/csc", "");
-    const url = `https://api.countrystatecity.in${path}`;
+    const { path = [] } = req.query;
+    const url = `https://api.countrystatecity.in/${path.join("/")}`;
 
     const response = await fetch(url, {
       headers: {
@@ -13,6 +13,6 @@ export default async function handler(req, res) {
 
     res.status(200).json(data);
   } catch (error) {
-    res.status(500).json({ error: "API proxy failed" });
+    res.status(500).json({ error: "Proxy failed" });
   }
 }
