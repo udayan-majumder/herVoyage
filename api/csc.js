@@ -1,13 +1,18 @@
 export default async function handler(req, res) {
-  const url = `https://api.countrystatecity.in${req.url.replace("/api/csc", "")}`;
+  try {
+    const path = req.url.replace("/api/csc", "");
+    const url = `https://api.countrystatecity.in${path}`;
 
-  const response = await fetch(url, {
-    headers: {
-      "X-CSCAPI-KEY": process.env.CSC_API_KEY,
-    },
-  });
+    const response = await fetch(url, {
+      headers: {
+        "X-CSCAPI-KEY": process.env.CSC_API_KEY,
+      },
+    });
 
-  const data = await response.text();
+    const data = await response.json();
 
-  res.status(response.status).send(data);
+    res.status(200).json(data);
+  } catch (error) {
+    res.status(500).json({ error: "API proxy failed" });
+  }
 }
