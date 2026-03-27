@@ -2,7 +2,7 @@
 // We call CSC via the Vite dev proxy (`/csc/...`) so:
 // - the browser doesn't send X-CSCAPI-KEY (no CORS preflight spam)
 // - the key stays server-side (set CSC_API_KEY in `.env`)
-const CSC_BASE = '/csc/v1'
+const CSC_BASE = "/api/csc/v1";
 
 async function cscFetch(path) {
   const res = await fetch(`${CSC_BASE}${path}`)
