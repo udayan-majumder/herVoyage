@@ -1,7 +1,8 @@
 export default async function handler(req, res) {
   try {
-    const path = req.url.replace("/api/csc", "");
-    const url = `https://api.countrystatecity.in${path}`;
+    const { path = [] } = req.query;
+
+    const url = `https://api.countrystatecity.in/${path.join("/")}`;
 
     const response = await fetch(url, {
       headers: {
