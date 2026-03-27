@@ -1,0 +1,200 @@
+[
+  {
+    "id": "lisbon",
+    "name": "Lisbon",
+    "country": "Portugal",
+    "region": "Europe",
+    "safetyLevel": 4,
+    "budget": "$$",
+    "vibe": ["Relaxed", "Foodie", "Scenic"],
+    "shortBlurb": "Cozy neighborhoods, great public transport, and a friendly solo-travel vibe.",
+    "highlights": ["Tram 28 ride", "Belém pastries", "Miradouros (viewpoints)", "Day trip to Sintra"],
+    "safetyTips": [
+      "Watch for pickpockets on trams and in crowded tourist spots.",
+      "Use licensed taxis or rideshare late at night.",
+      "Keep a small crossbody bag in front in busy areas."
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Old Town + Viewpoints",
+        "plan": ["Alfama walk", "São Jorge Castle", "Sunset at Miradouro da Senhora do Monte"]
+      },
+      {
+        "day": 2,
+        "title": "Belém + River Walk",
+        "plan": ["Jerónimos area", "Pastéis de Belém", "Riverside stroll and museums"]
+      },
+      {
+        "day": 3,
+        "title": "Sintra Day Trip",
+        "plan": ["Early train", "Pena Palace (timed ticket)", "Return before late evening"]
+      }
+    ]
+  },
+  {
+    "id": "seoul",
+    "name": "Seoul",
+    "country": "South Korea",
+    "region": "Asia",
+    "safetyLevel": 5,
+    "budget": "$$",
+    "vibe": ["City", "Shopping", "Cafés"],
+    "shortBlurb": "Bright, efficient, and generally very safe with excellent transit.",
+    "highlights": ["Palaces + hanok villages", "Night markets", "K-beauty shopping", "River parks"],
+    "safetyTips": [
+      "Stick to well-lit streets if you’re out late (common and safe).",
+      "Keep your T-money card topped up for easy transport.",
+      "Save your accommodation address in Korean for taxis."
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Historic Seoul",
+        "plan": ["Gyeongbokgung Palace", "Bukchon Hanok Village", "Insadong tea street"]
+      },
+      {
+        "day": 2,
+        "title": "Neighborhood Hopping",
+        "plan": ["Hongdae cafés", "Yeonnam-dong stroll", "Evening at Myeongdong market"]
+      },
+      {
+        "day": 3,
+        "title": "Easy Nature Break",
+        "plan": ["Han River picnic", "Bike path ride", "Sunset city views"]
+      }
+    ]
+  },
+  {
+    "id": "reykjavik",
+    "name": "Reykjavík",
+    "country": "Iceland",
+    "region": "Europe",
+    "safetyLevel": 5,
+    "budget": "$$$",
+    "vibe": ["Nature", "Cozy", "Scenic"],
+    "shortBlurb": "One of the safest destinations—perfect base for day tours.",
+    "highlights": ["Golden Circle tour", "Blue Lagoon", "Cozy cafés", "Northern lights (seasonal)"],
+    "safetyTips": [
+      "Dress for wind and sudden weather changes.",
+      "Book tours with reputable operators and share your day plan.",
+      "Carry a portable charger on long day trips."
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "City + Local Warm-Up",
+        "plan": ["Hallgrímskirkja", "Harbor walk", "Local pool/thermal soak"]
+      },
+      {
+        "day": 2,
+        "title": "Golden Circle",
+        "plan": ["Thingvellir", "Geysir", "Gullfoss", "Return before late night"]
+      },
+      {
+        "day": 3,
+        "title": "South Coast Sampler",
+        "plan": ["Waterfalls", "Black sand beach", "Keep to marked paths"]
+      }
+    ]
+  },
+  {
+    "id": "chiang-mai",
+    "name": "Chiang Mai",
+    "country": "Thailand",
+    "region": "Asia",
+    "safetyLevel": 4,
+    "budget": "$",
+    "vibe": ["Foodie", "Relaxed", "Culture"],
+    "shortBlurb": "Laid-back, budget-friendly, and welcoming for first-time solo travelers.",
+    "highlights": ["Night bazaars", "Temple hopping", "Cooking class", "Ethical elephant sanctuary (research!)"],
+    "safetyTips": [
+      "Use ride apps at night and confirm the license plate.",
+      "Keep small bills; avoid flashing cash at markets.",
+      "Choose animal experiences carefully—prioritize ethical sanctuaries."
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Old City Temples",
+        "plan": ["Wat Chedi Luang", "Wat Phra Singh", "Night market dinner"]
+      },
+      {
+        "day": 2,
+        "title": "Culture + Cooking",
+        "plan": ["Morning café", "Cooking class", "Sunday walking street (if open)"]
+      },
+      {
+        "day": 3,
+        "title": "Easy Day Trip",
+        "plan": ["Doi Suthep", "Scenic viewpoints", "Back before late evening"]
+      }
+    ]
+  },
+  {
+    "id": "vancouver",
+    "name": "Vancouver",
+    "country": "Canada",
+    "region": "North America",
+    "safetyLevel": 4,
+    "budget": "$$$",
+    "vibe": ["Nature", "City", "Active"],
+    "shortBlurb": "A city-meets-nature destination with easy day hikes and waterfront paths.",
+    "highlights": ["Stanley Park seawall", "Granville Island", "Capilano area", "Day trip to Whistler"],
+    "safetyTips": [
+      "Avoid isolated parks late at night; choose busy routes.",
+      "If hiking, tell someone your route and start early.",
+      "Keep valuables out of sight in cars and on beaches."
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Waterfront + City",
+        "plan": ["Seawall walk", "Gastown photo stop", "Sunset by the harbor"]
+      },
+      {
+        "day": 2,
+        "title": "Food + Markets",
+        "plan": ["Granville Island", "Coffee crawl", "Neighborhood exploring"]
+      },
+      {
+        "day": 3,
+        "title": "Nature Day",
+        "plan": ["Easy hike or gondola", "Pack layers", "Return before dark"]
+      }
+    ]
+  },
+  {
+    "id": "melbourne",
+    "name": "Melbourne",
+    "country": "Australia",
+    "region": "Oceania",
+    "safetyLevel": 4,
+    "budget": "$$$",
+    "vibe": ["Cafés", "Arts", "City"],
+    "shortBlurb": "Creative lanes, great coffee, and walkable neighborhoods with solid transit.",
+    "highlights": ["Laneway street art", "Coffee culture", "Markets", "Great Ocean Road day tour"],
+    "safetyTips": [
+      "Keep your phone secure on trams and platforms.",
+      "Use well-lit streets at night; prefer populated routes.",
+      "Have a backup payment method (card + small cash)."
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Laneways + River",
+        "plan": ["Street art walk", "Yarra River stroll", "Museum or gallery"]
+      },
+      {
+        "day": 2,
+        "title": "Markets + Neighborhoods",
+        "plan": ["Queen Vic Market", "Fitzroy cafés", "Sunset viewpoint"]
+      },
+      {
+        "day": 3,
+        "title": "Day Tour",
+        "plan": ["Great Ocean Road (group tour)", "Pack snacks", "Return by evening"]
+      }
+    ]
+  }
+]
