@@ -37,13 +37,6 @@ import { getCityTravelContent } from './api/travelContent.js'
       let cancelled = false
 
       const loadSafety = async () => {
-        // Only run this for the demo curated dataset.
-        // If India cities are the primary experience, we skip it.
-        if (import.meta.env.VITE_CSC_API_KEY) {
-          setSafetyStatus({ state: 'idle', message: '' })
-          return
-        }
-
         setSafetyStatus({ state: 'loading', message: 'Updating safety ratings…' })
 
         try {

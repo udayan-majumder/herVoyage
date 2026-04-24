@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/csc/, ""),
           headers: {
-            "X-CSCAPI-KEY": env.VITE_CSC_API_KEY,
+            "X-CSCAPI-KEY": env.CSC_API_KEY,
           },
         },
       },
